@@ -1,7 +1,7 @@
 import random
-org_word = input('write your word, you can use space, ?, !, comma, and apostrophe:')
+org_word = input('write your word, you can use big and small letters, space, ?, !, comma, and apostrophe:')
 word_learn = []
-abc= ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','?','!',' ',',','\'']
+abc= ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','?','!',' ',',','\'']
 
 iter = 0
 
