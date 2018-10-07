@@ -3,7 +3,12 @@
 ### research-methodology.py
 My first script write in Python
 
-It print a stages of conducting research
+it print a stages of conducting research
+
+### word-learn.py
+my first self learning script
+
+write a word or sentence and watch the show ;-)
 
 ### movie-premiere.py
 simple script to concatenation one variable within a string
@@ -13,3 +18,4 @@ simple number generator based on elif statement
 
 ### infinite-crawl.py
 infinite animation of snake crawl
+
