@@ -1,11 +1,11 @@
 # This is my sandbox, learn field and fun(k)
 
 ### research-methodology.py
-My first script write in Python
+My first script write in Python<br/>
 it print a stages of conducting research
 
 ### word-learn.py
-my first self learning script
+my first self learning script<br/>
 write a word or sentence and watch the show ;-)
 
 ### movie-premiere.py
