@@ -2,12 +2,10 @@
 
 ### research-methodology.py
 My first script write in Python
-
 it print a stages of conducting research
 
 ### word-learn.py
 my first self learning script
-
 write a word or sentence and watch the show ;-)
 
 ### movie-premiere.py
