@@ -14,6 +14,9 @@ simple script to concatenation one variable within a string
 ### strange-fractal.py
 simple number generator based on elif statement
 
+### DNA-animation.py
+infinite animation of DNA swirling
+
 ### infinite-crawl.py
 infinite animation of snake crawl
 
