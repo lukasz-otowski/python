@@ -1,7 +1,7 @@
 # This is my sandbox, learn field and fun(k)
 
 ### research-methodology.py
-My first script write in Python<br/>
+my first script write in Python<br/>
 it print a stages of conducting research
 
 ### word-learn.py
@@ -15,7 +15,10 @@ simple script to concatenation one variable within a string
 simple number generator based on elif statement
 
 ### fibonacci-numbers.py
-You should know what this script is do ;-)
+you should know what this script is do ;-)
+
+### multi.py
+script that check your skill of multiplication
 
 ### DNA-animation.py
 infinite animation of DNA swirling
