@@ -20,6 +20,9 @@ you should know what this script is do ;-)
 ### multi.py
 script that check your skill of multiplication
 
+### div.py
+script that check your divide skill
+
 ### DNA-animation.py
 infinite animation of DNA swirling
 
