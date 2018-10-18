@@ -14,6 +14,9 @@ simple script to concatenation one variable within a string
 ### strange-fractal.py
 simple number generator based on elif statement
 
+### highest.py
+script which find the highest number from input field
+
 ### fibonacci-numbers.py
 you should know what this script is do ;-)
 
