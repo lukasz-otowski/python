@@ -26,6 +26,9 @@ script that check your skill of multiplication
 ### div.py
 script that check your divide skill
 
+### land-generator.py
+landscape generator
+
 ### DNA-animation.py
 infinite animation of DNA swirling
 
