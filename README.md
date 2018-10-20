@@ -29,6 +29,9 @@ script that check your divide skill
 ### land-generator.py
 landscape generator
 
+### cool-chart-anim.py
+column chart animation
+
 ### DNA-animation.py
 infinite animation of DNA swirling
 
