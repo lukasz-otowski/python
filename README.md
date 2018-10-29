@@ -8,6 +8,9 @@ it print a stages of conducting research
 my first self learning script<br/>
 write a word or sentence and watch the show ;-)
 
+### community-cooperating.py
+simulation of two community cooperating
+
 ### movie-premiere.py
 simple script to concatenation one variable within a string
 
