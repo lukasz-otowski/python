@@ -11,6 +11,9 @@ write a word or sentence and watch the show ;-)
 ### community-cooperating.py
 simulation of two community cooperating
 
+### lifo-stack.py
+script to control stack based on lifo buffer type
+
 ### movie-premiere.py
 simple script to concatenation one variable within a string
 
