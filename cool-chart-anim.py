@@ -8,15 +8,15 @@ import time
 #  ,"                     "
 #  ,"                     "
 #  ,"_____________________"
-elements =[["[]","  ","  ","  ","  ","  ","  ","  ","  "],
-           ["[]","[]","  ","  ","  ","  ","  ","  ","  "],
-           ["[]","[]","[]","  ","  ","  ","  ","  ","  "],
-           ["[]","[]","[]","[]","  ","  ","  ","  ","  "],
-           ["[]","[]","[]","[]","[]","  ","  ","  ","  "],
-           ["[]","[]","[]","[]","[]","[]","  ","  ","  "],
-           ["[]","[]","[]","[]","[]","[]","[]","  ","  "],
-           ["[]","[]","[]","[]","[]","[]","[]","[]","  "],
-           ["[]","[]","[]","[]","[]","[]","[]","[]","[]"],]
+elements = [["[]", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  "],
+            ["[]", "[]", "  ", "  ", "  ", "  ", "  ", "  ", "  "],
+            ["[]", "[]", "[]", "  ", "  ", "  ", "  ", "  ", "  "],
+            ["[]", "[]", "[]", "[]", "  ", "  ", "  ", "  ", "  "],
+            ["[]", "[]", "[]", "[]", "[]", "  ", "  ", "  ", "  "],
+            ["[]", "[]", "[]", "[]", "[]", "[]", "  ", "  ", "  "],
+            ["[]", "[]", "[]", "[]", "[]", "[]", "[]", "  ", "  "],
+            ["[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]", "  "],
+            ["[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]", "[]"], ]
 indexV = [
             "9",
             "8",
@@ -28,18 +28,18 @@ indexV = [
             "2",
             "1"
         ]
-indexH = ["0","01","02","03","04","06","07","08","09"]
+indexH = ["0", "01", "02", "03", "04", "06", "07", "08", "09"]
 
 while True:
     os.system('cls')
-    randEl = [random.randint(0,len(elements[0]) - 1),
-              random.randint(0,len(elements[0]) - 1),
-              random.randint(0,len(elements[0]) - 1),
-              random.randint(0,len(elements[0]) - 1),
-              random.randint(0,len(elements[0]) - 1),
-              random.randint(0,len(elements[0]) - 1),
-              random.randint(0,len(elements[0]) - 1),
-              random.randint(0,len(elements[0]) - 1),]
+    randEl = [random.randint(0, len(elements[0]) - 1),
+              random.randint(0, len(elements[0]) - 1),
+              random.randint(0, len(elements[0]) - 1),
+              random.randint(0, len(elements[0]) - 1),
+              random.randint(0, len(elements[0]) - 1),
+              random.randint(0, len(elements[0]) - 1),
+              random.randint(0, len(elements[0]) - 1),
+              random.randint(0, len(elements[0]) - 1), ]
     for inner in range(9):
         print(
                 indexV[inner],
@@ -51,6 +51,7 @@ while True:
                 elements[inner][randEl[5]],
                 elements[inner][randEl[6]],
                 elements[inner][randEl[7]],
-             )    
-    print(indexH[0],indexH[1],indexH[2],indexH[3],indexH[4],indexH[5],indexH[6],indexH[7],indexH[8])
+            )
+    print(indexH[0], indexH[1], indexH[2], indexH[3], indexH[4],
+          indexH[5], indexH[6], indexH[7], indexH[8])
     time.sleep(.25)
