@@ -35,6 +35,9 @@ script that check your divide skill
 ### land-generator.py
 landscape generator
 
+### enemy.py
+very simple game
+
 ### cool-chart-anim.py
 column chart animation
 
