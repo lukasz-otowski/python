@@ -3,16 +3,16 @@ inp = str(input("Input a numbers divided by space: "))
 # change all element in list into integers
 inp = list(map(int, inp.split()))
 
-iter = 0
+iteration = 0
 curr = 0
 
-while iter < len(inp):
-    if curr < inp[iter]:
-        curr = inp[iter]
+while iteration < len(inp):
+    if curr < inp[iteration]:
+        curr = inp[iteration]
 
-    if iter == len(inp):
+    if iteration == len(inp):
         break
     else:
-        iter += 1
+        iteration += 1
 
 print('\n', "The highest number is: ", curr)

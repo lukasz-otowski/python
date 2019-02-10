@@ -28,12 +28,12 @@ snake = [
         '----:###############-',
         '-----:###############'
         ]
-iter = 0
+iteration = 0
 
-while iter < len(snake):
+while iteration < len(snake):
     print('\033c')
-    print(snake[iter])
-    iter += 1
+    print(snake[iteration])
+    iteration += 1
     time.sleep(.1)
-    if iter == len(snake):
-        iter = 6
+    if iteration == len(snake):
+        iteration = 6

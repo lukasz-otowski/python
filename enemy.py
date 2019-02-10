@@ -9,6 +9,7 @@ class Player:
         self.life = life
         self.damage = damage
 
+
 # create enemy and user players
 enemy = Player(10, 3)
 user = Player(10, 2)
@@ -43,6 +44,7 @@ def gameplay():
     # if user life is under 1 then enemy win
     elif user.life < 1:
         print("\n ENEMY WIN :(")
+
 
 # turn on gameplay
 gameplay()

@@ -8,9 +8,9 @@ divResult = int(dividend / divider)
 print("\n", dividend, " / ", divider, " = ? ")
 inp = int(input("what's the score: "))
 
-if(inp == divResult):
+if inp == divResult:
     print("\n", "Right!")
     print(dividend, " / ", divider, " = ", divResult)
-elif(inp != divResult):
+elif inp != divResult:
     print("\n", "Bad!")
     print(dividend, " / ", divider, " = ", divResult)

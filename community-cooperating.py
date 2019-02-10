@@ -59,6 +59,7 @@ def communities_progress(pers1, pers2):
     compl_train += 4
     org_meets += 3
 
+
 test = Community("Test group", 231, 9)
 new = Community(inpName, inpPers, inpSkills)
 

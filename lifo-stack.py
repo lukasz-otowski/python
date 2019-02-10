@@ -8,6 +8,8 @@ class Stack:
         self.fill = 4
         self.empty = "[_]"
         self.full = "[█]"
+
+
 Stack = Stack()
 
 
@@ -38,15 +40,16 @@ def choice():
     elif choice == 22:
         Stack.cap -= 1
 
+
 # show stack data
-iter = 1
-while iter <= 2:
+iteration = 1
+while iteration <= 2:
     os.system('cls')
-    if iter == 1:
+    if iteration == 1:
         show(Stack.empty, Stack.full, Stack.cap, Stack.fill)
         choice()
-        iter += 1
-    elif iter == 2:
+        iteration += 1
+    elif iteration == 2:
         empty_val = 6
         show(Stack.empty, Stack.full, Stack.cap, Stack.fill)
         choice()

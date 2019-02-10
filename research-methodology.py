@@ -33,4 +33,5 @@ def write_methodology(list):
         for write in i:
             print(write)
 
+
 write_methodology(methodology)

@@ -11,9 +11,9 @@ inpRes = int(input("Input result: "))
 
 # check result
 print("\n")
-if(inpRes == result):
+if inpRes == result:
     print("Good")
     print(first, " * ", second, " = ", result, "\n")
-elif(inpRes != result):
+elif inpRes != result:
     print("Bad, right result is: ")
     print(first, " * ", second, " = ", result)

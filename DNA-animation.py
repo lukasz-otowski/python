@@ -11,11 +11,11 @@ rows = [
         "  0~~~~~~~o  "
         ]
 
-iter = 0
+iteration = 0
 
 while True:
     time.sleep(.1)
-    print(rows[iter])
-    iter += 1
-    if iter > 8:
-        iter = 0
+    print(rows[iteration])
+    iteration += 1
+    if iteration > 8:
+        iteration = 0

@@ -7,13 +7,13 @@ abc = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
        'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z',
        '?', '!', ' ', ',', '\'']
 
-iter = 0
+iteration = 0
 
 # fill comparison array by random char to get the same length as original word
-while iter < len(org_word):
+while iteration < len(org_word):
     rand_char = random.choice(abc)
-    word_learn.insert(iter, rand_char)
-    iter += 1
+    word_learn.insert(iteration, rand_char)
+    iteration += 1
 
 # learn the original word
 while str != org_word:
