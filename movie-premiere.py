@@ -8,13 +8,18 @@ def movie_premiere():
         'Potter and the Chamber of Secrets',
         'Jones and the Kingdom of the Crystal Skull',
         'Gump',
-        'on Fire'
+        'on Fire',
+        ': Battle Angel',
+        ' Scissorhands',
         ]
     movies_1 = [
         'The Lord of the Rings: The Return of the',
         'The Hobbit: The Desolation of',
         'Saving Private',
-        'Dirty'
+        'Dirty',
+        'Saving Private ',
+        'Citizen ',
+        'Captain '
         ]
     premiere_txt = 'Today we have premiere an awesome movie! \n'
     rand_list = random.randrange(0, 3)
