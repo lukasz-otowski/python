@@ -17,20 +17,11 @@ script to control stack based on lifo buffer type
 ### movie-premiere.py
 simple script to concatenation one variable within a string
 
-### strange-fractal.py
-simple number generator based on elif statement
-
 ### highest.py
 script which find the highest number from input field
 
 ### fibonacci-numbers.py
 you should know what this script is do ;-)
-
-### multi.py
-script that check your skill of multiplication
-
-### div.py
-script that check your divide skill
 
 ### land-generator.py
 landscape generator
