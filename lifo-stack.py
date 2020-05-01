@@ -44,7 +44,7 @@ def choice():
 # show stack data
 iteration = 1
 while iteration <= 2:
-    os.system('cls')
+    os.system('clear')
     if iteration == 1:
         show(Stack.empty, Stack.full, Stack.cap, Stack.fill)
         choice()

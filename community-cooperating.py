@@ -66,7 +66,7 @@ new = Community(inpName, inpPers, inpSkills)
 time.sleep(.5)
 iter = 1
 while True:
-    os.system('cls')
+    os.system('clear')
     print("Day of communities contact: ", iter)
     print("\n")
 

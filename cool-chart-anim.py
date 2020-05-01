@@ -31,7 +31,7 @@ indexV = [
 indexH = ["0", "01", "02", "03", "04", "06", "07", "08", "09"]
 
 while True:
-    os.system('cls')
+    os.system('clear')
     randEl = [random.randint(0, len(elements[0]) - 1),
               random.randint(0, len(elements[0]) - 1),
               random.randint(0, len(elements[0]) - 1),

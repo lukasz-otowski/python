@@ -19,7 +19,7 @@ user = Player(10, 2)
 def gameplay():
 
     while enemy.life >= 1 and user.life >= 1:
-        os.system('cls')
+        os.system('clear')
         print("Your life", user.life)
         print("Enemy life", enemy.life)
         time.sleep(.5)
