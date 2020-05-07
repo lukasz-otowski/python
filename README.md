@@ -1,5 +1,9 @@
 # This is my sandbox, learn field and fun(k)
 
+### math_operation_generator.py
+App that generate mathematical operation,<br/>
+in where you can choose factor types
+
 ### research-methodology.py
 my first script write in Python<br/>
 it print a stages of conducting research
